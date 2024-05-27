@@ -90,7 +90,7 @@ ul{
 }
 
 
-textarea  {
+textarea[name="user-input"]  {
     width: 35%;
     height: 150px;
     padding: 10px;
@@ -110,7 +110,7 @@ textarea  {
 }
 
 
-button{
+#reset-button{
     padding: 10px;
     border: 1px solid #ffd700;
     background-color: #FFF5D3;
@@ -122,7 +122,7 @@ button{
 }
 
 
-button:hover {
+#reset-button:hover {
     background-color: #ffedb5;
 }
 
