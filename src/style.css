@@ -1,0 +1,137 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF1BB;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+h1{
+    margin-bottom: 20 px;
+    color: #555;
+    background-color: #FFF5D3;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    border-radius: 4px;
+    width: 360px;
+    text-align: center;
+    
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+
+.contadores{
+    margin-bottom: 25px;
+    color: #555;
+    background-color: #FFF5D3;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 4px;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+
+.izquierdo{
+    margin-left: 390px;
+    margin-bottom: 25px;
+    color: #555;
+    background-color: #FFF5D3;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    border-radius: 4px;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+
+.derecho{
+    margin-right: 410px;
+    margin-bottom: 25px;
+    color: #555;
+    background-color: #FFF5D3;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    border-radius: 4px;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+
+.texto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+textarea  {
+    width: 35%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #FFF5D3;
+    border: 2px solid #ffd700;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.5px;
+}
+
+
+button{
+    padding: 10px;
+    border: 1px solid #ffd700;
+    background-color: #FFF5D3;
+    color: #555;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+button:hover {
+    background-color: #ffedb5;
+}
+
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #555;
+    text-align: right;
+    margin-right: 10px;
+    
+}
