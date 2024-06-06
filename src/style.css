@@ -36,7 +36,7 @@ ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
@@ -54,43 +54,10 @@ ul{
 }
 
 
-.izquierdo{
-    margin-left: 390px;
-    margin-bottom: 25px;
-    color: #555;
-    background-color: #FFF5D3;
-    border: 2px solid #ffd700;
-    padding: 10px;
-    border-radius: 4px;
-    list-style: none;
-    width: 20%;
-    text-align: center;
-}
 
 
-.derecho{
-    margin-right: 410px;
-    margin-bottom: 25px;
-    color: #555;
-    background-color: #FFF5D3;
-    border: 2px solid #ffd700;
-    padding: 10px;
-    border-radius: 4px;
-    list-style: none;
-    width: 20%;
-    text-align: center;
-}
-
-
-.texto{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 80px;
-}
-
-
-textarea  {
+textarea[name="user-input"]  {
+    display: block;
     width: 35%;
     height: 150px;
     padding: 10px;
@@ -99,18 +66,15 @@ textarea  {
     margin-bottom: 20px;
     background-color: #FFF5D3;
     border: 2px solid #ffd700;
+    margin: 20px auto;
+    width: 50%;
 }
 
 
-.boton{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 0.5px;
-}
 
 
-button{
+#reset-button{
+    display: block;
     padding: 10px;
     border: 1px solid #ffd700;
     background-color: #FFF5D3;
@@ -119,10 +83,15 @@ button{
     cursor: pointer;
     padding-left: 60px;
     padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin-top: 0.5px;
+    margin: 20px auto;
 }
 
 
-button:hover {
+#reset-button:hover {
     background-color: #ffedb5;
 }
 
