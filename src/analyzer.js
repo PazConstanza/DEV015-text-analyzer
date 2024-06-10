@@ -19,7 +19,7 @@ const analyzer = {
   
   
   getCharacterCountExcludingSpaces: (text) => {
-    return text.replace(/[\s.,]+/g, "").length;
+    return text.replace(/[\s.,]+/g, "").length;  
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   },
   
@@ -30,7 +30,7 @@ const analyzer = {
   },
   
   getNumberSum: (text) => {
-    const palabras = text.match(/\b\d+(\.\d+)?\b/g) || [];
+    const palabras = text.match(/\b\d+(\.\d+)?\b/g) || [];  
     
     let suma=0
     palabras.forEach(palabra => {
