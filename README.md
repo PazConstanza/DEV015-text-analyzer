@@ -68,8 +68,11 @@ _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 
 **1.** Abre la página en tu navegador.
+
 **2.** Escribe o pega el texto que deseas analizar en el área de texto proporcionada.
+
 **3.** Observa cómo se actualizan automáticamente las métricas en la lista.
+
 **4.** Si deseas comenzar de nuevo, haz clic en el botón "Borrar".
 
 
