@@ -58,7 +58,7 @@ _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 * HTML.
 * CSS.
-*JavaScript.
+* JavaScript.
 
 
 
