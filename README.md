@@ -1,21 +1,79 @@
-*Analizador de Texto*
+# Text Analyzer
 
-El Analizador de Texto es una aplicación web que permite a los usuarios ingresar texto y obtener estadísticas en tiempo real, como el conteo de caracteres, palabras, números y etc. También permite restablecer el texto ingresado y los contadores a sus valores iniciales.
 
-*Descripción*
 
-Este proyecto consta de una página web con un área diseñada donde el usuario puede escribir o pegar cualquier texto. A medida que este se ingresa, el analizador sera capaz de entregar los siguientes parametros:
 
-Número de caracteres.
-Número de caracteres sin espacios.
-Número de palabras.
-Número de números.
-Suma de todos los números.
-Promedio de la longitud de las palabras.
-Estructura del Proyecto
-El proyecto está compuesto por los siguientes archivos:
+## Índice
 
-index.html: Contiene la estructura HTML de la página.
-style.css: Contiene los estilos CSS para el diseño de la página.
-index.js: Contiene la lógica JavaScript para manejar los eventos del DOM y actualizar las estadísticas.
-analyzer.js: Contiene las funciones que realizan el análisis del texto.
+
+
+
+* [1. Descripción](#1-Descripción)
+* [2. Funcionalidades](#2-Funcionalidades)
+* [3. Tecnologías utilizadas](#3-Tecnologías-utilizadas)
+* [4. Cómo usar](#4-Cómo-usar)
+
+
+
+
+***
+
+
+
+
+## 1. Descripción
+
+
+
+Text Analyzer es una página web interactiva que permite a los usuarios analizar textos de manera eficiente. La aplicación ofrece una variedad de métricas, incluyendo el recuento de palabras, caracteres, y números, así como la suma de los números presentes y la longitud promedio de las palabras. Es una herramienta útil para estudiantes, escritores y cualquier persona que necesite obtener información detallada sobre un texto.
+
+
+
+
+## 2. Funcionalidades
+
+
+
+![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+
+_Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+
+
+
+
+- **Recuento de palabras:** Muestra el total de palabras en el texto ingresado.
+- **Recuento de caracteres:** Indica el número total de caracteres, incluyendo espacios y signos de puntuación.
+- **Recuento de caracteres (sin espacios):** Muestra el número de caracteres excluyendo espacios y signos de puntuación.
+- **Recuento de números:** Cuenta cuántos números hay en el texto.
+- **Suma de números:** Calcula la suma total de todos los números presentes en el texto.
+- **Longitud media de las palabras:** Calcula la longitud promedio de las palabras en el texto.
+
+
+
+
+## 3. Tecnologías utilizadas
+
+
+
+* HTML.
+* CSS.
+*JavaScript.
+
+
+
+
+## 4. Cómo usar
+
+
+
+**1.** Abre la página en tu navegador.
+**2.** Escribe o pega el texto que deseas analizar en el área de texto proporcionada.
+**3.** Observa cómo se actualizan automáticamente las métricas en la lista.
+**4.** Si deseas comenzar de nuevo, haz clic en el botón "Borrar".
+
+
+
+
+
+
